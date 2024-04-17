@@ -58,7 +58,7 @@ const userSchema = new Schema({
 
     date: {
         type: Date,
-        default: new Date().toLocaleDateString('en-GB')
+        default: Date.now
     }
 });
 
